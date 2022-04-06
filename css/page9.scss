@@ -1,0 +1,148 @@
+.nine {
+	padding-top: 200px;
+	width: 910px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 40px;
+	&-top {
+		border-bottom: 4px solid #ededf7;
+		padding-bottom: 30px;
+		img {
+			width: 100%;
+		}
+		h2 {
+			font-size: 32px;
+			color: #323264;
+			margin-top: 40px;
+			font-family: "TT Norms Bold";
+		}
+		h3 {
+			font-size: 12px;
+			color: #b3b3ba;
+			margin-top: 10px;
+			text-transform: uppercase;
+		}
+	}
+	&-mid {
+		margin-top: 40px;
+		img {
+			width: 100%;
+		}
+		p {
+			color: black;
+			font-size: 18px;
+			margin: 20px 20px 0 20px;
+		}
+		h2 {
+			margin-top: 30px;
+			background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			font-size: 42px;
+			font-family: "TT Norms Bold";
+		}
+		h3 {
+			margin: 30px 20px 0 20px;
+			font-size: 24px;
+			color: #46466e;
+		}
+		ol {
+			padding-left: 54px;
+			li {
+				color: #f0145a;
+				margin-top: 20px;
+				font-family: "TT Norms Bold";
+				list-style-type: decimal;
+				font-size: 18px;
+				padding-left: 10px;
+				span {
+					font-weight: normal;
+					color: black;
+				}
+			}
+		}
+	}
+	&-bot {
+		border-top: 4px solid #ededf7;
+		padding-top: 10px;
+		margin-top: 30px;
+		div {
+			display: flex;
+			a {
+				display: block;
+				width: 42px;
+				height: 42px;
+				border-radius: 12px;
+				background-color: #f5f5fa;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				&:not(:last-child) {
+					margin-right: 10px;
+				}
+			}
+		}
+	}
+}
+@media screen and (max-width: 950px) {
+	.nine {
+		padding-top: 125px;
+		width: 90%;
+		padding-bottom: 40px;
+		&-top {
+			padding-bottom: 20px;
+			img {
+				width: 100%;
+			}
+			h2 {
+				font-size: 22px;
+				margin-top: 20px;
+			}
+			h3 {
+				font-size: 12px;
+				color: #b3b3ba;
+				margin-top: 10px;
+				text-transform: uppercase;
+			}
+		}
+		&-mid {
+			margin-top: 0px;
+			p {
+				margin: 0;
+				margin-top: 20px;
+			}
+			h2 {
+				margin-top: 20px;
+				font-size: 32px;
+			}
+			h3 {
+				margin: 40px 0 0 0;
+				font-size: 18spx;
+			}
+			ol {
+				padding-left: 37px;
+			}
+		}
+		&-bot {
+			display: flex;
+			justify-content: center;
+			padding-top: 20px;
+			div {
+				display: flex;
+				a {
+					display: block;
+					width: 42px;
+					height: 42px;
+					border-radius: 12px;
+					background-color: #f5f5fa;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					&:not(:last-child) {
+						margin-right: 10px;
+					}
+				}
+			}
+		}
+	}
+}

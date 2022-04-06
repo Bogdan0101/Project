@@ -1,0 +1,132 @@
+.six {
+	background: url(../img/Cover.png) no-repeat;
+	background-color: #323264;
+	min-height: 100vh;
+	background-size: contain;
+	padding-top: 200px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	.shadow1 {
+		display: flex;
+		justify-content: center;
+		position: absolute;
+		background-color: #cacadb;
+		width: 97%;
+		height: 10px;
+		bottom: -10px;
+		border-radius: 0px 0px 12px 12px;
+		.shadow1-shadow {
+			position: absolute;
+			background-color: #f5f5fa;
+			width: 95%;
+			height: 10px;
+			bottom: -10px;
+			border-radius: 0px 0px 12px 12px;
+		}
+	}
+	&-top {
+		width: 860px;
+		text-align: center;
+		img {
+			width: 92px;
+			height: 92px;
+		}
+		h2 {
+			background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			font-size: 42px;
+			margin-top: 20px;
+			font-family: "TT Norms Bold";
+		}
+		p {
+			font-size: 21px;
+			margin-top: 20px;
+		}
+		a {
+			display: block;
+			margin-top: 40px;
+			width: 250px;
+			box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+			background-color: #24a3ff;
+			border-radius: 12px;
+			padding: 16px 0 17px 0;
+			font-size: 14px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+	&-bot {
+		margin-top: 80px;
+		width: 77%;
+		display: flex;
+		justify-content: space-between;
+		border-top: 4px solid #e6e6f0;
+		padding-top: 20px;
+		&-left {
+			width: 45%;
+			h2 {
+				font-size: 24px;
+			}
+			ul {
+				li {
+					font-size: 18px;
+					margin-top: 20px;
+					margin-left: 10px;
+					display: flex;
+					&::before {
+						content: "\2022";
+						display: block;
+						width: 6px;
+						height: 6px;
+						color: #f0145a;
+						margin-right: 8px;
+						padding-top: 2px;
+					}
+				}
+			}
+		}
+		&-right {
+			margin-top: 26px;
+			width: 45%;
+			ul {
+				li {
+					margin-top: 20px;
+					font-size: 18px;
+					margin-left: 10px;
+					display: flex;
+					&::before {
+						content: "\2022";
+						display: block;
+						width: 6px;
+						height: 6px;
+						color: #f0145a;
+						margin-right: 8px;
+						padding-top: 2px;
+					}
+				}
+			}
+		}
+	}
+}
+@media screen and (max-width: 900px) {
+	.six {
+		padding-top: 125px;
+		&-top {
+			width: 90%;
+		}
+		&-bot {
+			flex-direction: column;
+			width: 90%;
+			margin-top: 40px;
+			&-left {
+				width: 100%;
+			}
+			&-right {
+				width: 100%;
+			}
+		}
+	}
+}

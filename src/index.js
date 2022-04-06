@@ -1,0 +1,12 @@
+import '../css/normal.scss';
+import '../css/style.scss';
+import '../css/page1.scss';
+import '../css/page2.scss';
+import '../css/page3.scss';
+import '../css/page4.scss';
+import '../css/page5.scss';
+import '../css/page6.scss';
+import '../css/page7.scss';
+import '../css/page8.scss';
+import '../css/page9.scss';
+import '../css/page10.scss';
